@@ -1,0 +1,408 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+  <meta charset="UTF-8" />
+  <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+  <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.0.1/dist/css/bootstrap.min.css" rel="stylesheet"
+    integrity="sha384-+0n0xVW2eSR5OomGNYDnhzAbDsOXxcvSN1TPprVMTNDbiYZCxYbOOl7+AMvyTG2x" crossorigin="anonymous" />
+  <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bootstrap-icons@1.3.0/font/bootstrap-icons.css" />
+  <link href="https://api.mapbox.com/mapbox-gl-js/v2.1.1/mapbox-gl.css" rel="stylesheet" />
+  <link rel="stylesheet" href="style.css" />
+  <link rel="icon" href="images/background.png">
+  <title>Missing Pieces Gaming</title>
+</head>
+
+<body>
+  <!-- Navbar -->
+  <nav class="navbar navbar-expand-lg bg-primary navbar-dark py-3 fixed-top">
+    <div class="container">
+      <a href="#" class="navbar-brand">Home</a>
+
+      <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navmenu">
+        <span class="navbar-toggler-icon"></span>
+      </button>
+
+      <div class="collapse navbar-collapse" id="navmenu">
+        <ul class="navbar-nav ms-auto">
+          <li class="nav-item">
+            <a href="#servers" class="nav-link">Servers</a>
+          </li>
+          <li class="nav-item">
+            <a href="#questions" class="nav-link">Questions</a>
+          </li>
+          <li class="nav-item">
+            <a href="#about" class="nav-link">About</a>
+          </li>
+        </ul>
+      </div>
+    </div>
+  </nav>
+
+  <!-- Showcase -->
+  <section class="bg-dark text-light p-5 p-lg-5 pt-lg-5 text-center text-sm-start">
+    <div class="container">
+      <div class="d-sm-flex align-items-center justify-content-between">
+        <div>
+          <h1>Welcome to <span class="text-warning"> Missing Pieces Gaming </span></h1>
+          <p class="lead my-4"> Washed ashore on a strange and deserted island, an amazing, beautiful place that you
+            might not want to leave. On the other hand, it could be a dark, dangerous, or lonely place that has you
+            yearning for home. Here at MPG we take pride in taming and building. Our Servers are built for
+            players by players.
+          </p>
+          <button class="btn btn-primary btn-lg"
+            onclick=" window.open('https://discord.gg/zMRUd3ePQk', '_blank'); return false;">Join Discord</button>
+        </div>
+        <img class="img-fluid w-50 d-none d-sm-block" src="images/MPG.gif" alt="" />
+      </div>
+    </div>
+  </section>
+
+  <!-- Boxes -->
+  <section class="p-5">
+    <div class="container">
+      <div class="row text-center g-4">
+        <div class="col-md">
+          <div class="card bg-dark text-light">
+            <div class="card-body text-center">
+              <div class="h1">
+                <i class="bi bi-laptop"></i>
+              </div>
+              <h3 class="card-title mb-3">Gallery</h3>
+              <p class="card-text">
+                Google Gallery Please take a moment and check out our great photos and funny moments
+              </p>
+              <button class="btn btn-primary btn-lg"
+                onclick=" window.open('https://photos.app.goo.gl/PU6obpRE3yGf2fSQA', '_blank'); return false;">Gallery</button>
+            </div>
+          </div>
+        </div>
+        <div class="col-md">
+          <div class="col-md">
+            <div class="card bg-dark text-light">
+              <div class="card-body text-center">
+                <div class="h1">
+                  <i class="bi bi-people"></i>
+                </div>
+                <h3 class="card-title mb-3">Social Media's</h3>
+                <p class="card-text">
+                  Google Gallery Please take a moment and check out our great photos and funny moments
+                </p>
+                <button class="btn btn-primary btn-lg ms-1"
+                  onclick=" window.open('https://twitter.com/PiecesCluster', '_blank'); return false;">Twitter</button>
+                <button class="btn btn-primary btn-lg ms-1"
+                  onclick=" window.open('https://www.pinterest.com/BeautyHomeGarden4U/', '_blank'); return false;">Pinterest</button>
+                <button class="btn btn-primary btn-lg ms-1"
+                  onclick=" window.open('https://www.youtube.com/@MissingPiecesGaming/playlists', '_blank'); return false;">YouTube</button>
+              </div>
+            </div>
+          </div>
+        </div>
+      </div>
+    </div>
+  </section>
+
+  <section id="servers" class="p-5 bg-primary text-light">
+    <div class="container">
+      <div class="row align-items-center justify-content-between">
+        <div class="col-md p-5">
+          <h2>Server Links</h2>
+          <p class="lead">
+            Click Button Below to Download our Mods Then to Join a Server
+          </p>
+          <button class="btn btn-success btn-lg ms-1"
+            onclick=" window.open('https://steamcommunity.com/sharedfiles/filedetails/?id=2970851560', '_blank'); return false;">Mods
+            Page</button>
+          <button class="btn btn-secondary btn-lg ms-1"
+            onclick="window.location.href='steam://connect/144.126.153.205:34115';">Crystal Isles</button>
+          <button class="btn btn-secondary btn-lg ms-1"
+            onclick="window.location.href='steam://connect/172.107.197.115:29315';">Genesis 2</button>
+          <button class="btn btn-secondary btn-lg ms-1"
+            onclick="window.location.href='steam://connect/172.107.197.105:31215';">Ragnarok</button>
+          <button class="btn btn-secondary btn-lg ms-1"
+            onclick="window.location.href='steam://connect/144.126.153.159:31115';">Fjordur</button>
+          <button class="btn btn-secondary btn-lg ms-1"
+            onclick="window.location.href='steam://connect/144.126.153.229:31915';">The Island</button>
+          <button class="btn btn-warning btn-lg ms-1"
+            onclick=" window.open('https://mee6.xyz/en/m/mc-arkse', '_blank'); return false;">Donations</button>
+
+        </div>
+      </div>
+    </div>
+  </section>
+
+  <!-- Question Accordion -->
+  <section id="questions" class="p-5">
+    <div class="container">
+      <h2 class="text-center mb-4">Frequently Asked Questions</h2>
+      <div class="accordion accordion-flush" id="questions1">
+        <!-- Item 1 -->
+        <div class="accordion-item">
+          <h2 class="accordion-header">
+            <button class="accordion-button collapsed" type="button" data-bs-toggle="collapse"
+              data-bs-target="#question-one">
+              Where exactly are you located?
+            </button>
+          </h2>
+          <div id="question-one" class="accordion-collapse collapse" data-bs-parent="#questions">
+            <div class="accordion-body">
+              Our Servers are Located in Washington DC
+            </div>
+          </div>
+        </div>
+        <!-- Item 2 -->
+        <div class="accordion-item">
+          <h2 class="accordion-header">
+            <button class="accordion-button collapsed" type="button" data-bs-toggle="collapse"
+              data-bs-target="#question-two">
+              How much does it cost to Join?
+            </button>
+          </h2>
+          <div id="question-two" class="accordion-collapse collapse" data-bs-parent="#questions">
+            <div class="accordion-body">
+              Our Servers are Free to Play, but there is optional donation packages
+            </div>
+          </div>
+        </div>
+        <!-- Item 3 -->
+        <div class="accordion-item">
+          <h2 class="accordion-header">
+            <button class="accordion-button collapsed" type="button" data-bs-toggle="collapse"
+              data-bs-target="#question-three">
+              Wwhat are Your Server Rates?
+            </button>
+          </h2>
+          <div id="question-three" class="accordion-collapse collapse" data-bs-parent="#questions">
+            <div class="accordion-body">
+              <p>
+              <h3>[ Weekday / Weekends ]</h3>
+              XP 3/6<br>
+              Harvesting 3/6<br>
+              Taming 5/10<br>
+              Egg Hatch 5/10<br>
+              Maturation 10/20<br>
+              Lay Egg<br>
+              0.50/0.25<br></p>
+              <p>
+              <h3>[ Soul Terminal ]</h3>
+              Enable All Generation = True<br>
+              Destroy XP = 2.50<br>
+              Poop Multiplier = 2.50<br>
+              Misc Poop Multiplier = 2.50<br>
+              Poop Convert Speed = 2.50<br>
+              Egg Multiplier = 1.05<br>
+              Incubation Multiplier = 25.0<br>
+              Traps Enemy Structure Range = 25.0<br>
+              Baby Growth Multiplier = 25.0<br>
+              Passive Charge = 2.50<br>
+              Passive HP = 2.50<br>
+              Passive XP = 2.50<br></p>
+              <p>
+              <h3>[ Structures Plus ]</h3>
+              Beer Crafting Speed = 3.0<br>
+              Campfire Crafting Speed = 3.0<br>
+              Chemistry Bench Crafting Speed = 6.25<br>
+              Compost Bin Crafting Speed = 3.0<br>
+              Cooking Pot Crafting Speed = 3.0<br>
+              Fabricator Crafting Speed = 6.25<br>
+              Fireplace Crafting Speed = 6.25<br>
+              Forge Crafting Speed = 3.0<br>
+              Hatchery Incubation Multiplier = 3.0<br>
+              Incubator Perfect Temp Bonus = 5.0<br>
+              Industrial Cooking Pot Crafting Speed = 6.25<br>
+              Industrial Forge Crafting Speed = 6.25<br>
+              Industrial Grill Crafting Speed = 6.25<br>
+              Mortar And Pestle Crafting Speed = 3.0<br>
+              Preserving Bin Crafting Speed = 3.0<br>
+              Replicator Crafting Speed = 12<br>
+              Tek Chem Bench Crafting Speed = 12<br>
+              Tek Cooking Pot Crafting Speed = 12<br>
+              Tek Forge Crafting Speed = 12<br>
+              Tek Stove Crafting Speed = 12<br>
+              Smithy Crafting Speed = 3.0<br>
+              Crafting Station Speed = 6.25<br>
+              Vivarium Resource Multiplier = 2.5<br>
+              Tribe Gavager Limit = 12<br>
+              Tribe Vivarium Limit = 6<br></p>
+              <p>
+              <h3>[ Structure Limits ]</h3>
+              15K Per Map (Solo or Tribe)</p>
+              <p>
+              <h3>Fishing / Loot Quality</h3>
+              2.5 / 5.0
+              </p>
+              <p>
+              <h3>[ Player Stats ]</h3>
+              Health = 25<br>
+              Stamina = 25<br>
+              Torpor = 0<br>
+              Oxygen = 40<br>
+              Food = 10<br>
+              Water = 10<br>
+              Weight = 250<br>
+              Melee = 7.5%<br>
+              Speed = 2.25%<br>
+              Fortitude = 10<br>
+              Crafting = 15%<br></p>
+              <p>
+              <h3>[ Dino Stats ]</h3>
+              Health = 5.4%<br>
+              Stamina = 10%<br>
+              Food = 10%<br>
+              Damage = 2.55%<br>
+              Speed = 1%<br>
+              Weight = 50%<br></p>
+              <p>
+              <h3>[ Dropped Items ]</h3>
+              Item = 5 Mins<br>
+              Corpse = 1 Hr<br></p>
+              <p>
+              <h3>[ Day / Night Cycle IRL Time ]</h3>
+              Day 1 Hr<br>
+              Night 30 Mins<br></p>
+            </div>
+          </div>
+        </div>
+        <!-- Item 4 -->
+        <div class="accordion-item">
+          <h2 class="accordion-header">
+            <button class="accordion-button collapsed" type="button" data-bs-toggle="collapse"
+              data-bs-target="#question-four">
+              What Mods or Plugins do you Offer?
+            </button>
+          </h2>
+          <div id="question-four" class="accordion-collapse collapse" data-bs-parent="#questions">
+            <div class="accordion-body">
+              <p>
+              <h3>Plugins</h3>
+              ArkShop<br>
+              ArkShopUI<br>
+              DinoColors<br>
+              DinoColourCommand<br>
+              DinoTracker<br>
+              GenderChanger<br>
+              ItemsPlus<br>
+              KalsCrossChat<br>
+              LethalDecay<br>
+              NoWander<br>
+              Permissions<br>
+              RconScheduler<br>
+              StructuresLimit<br>
+              Suicide<br>
+              TribeEnforcer<br>
+              TribeLogRelay<br>
+              WeekendRates<br>
+              Voting Rewards</p>
+
+              <p>
+              <h3>Mods</h3>
+              MX-E Shopsystem<br>
+              Island Extension CIE<br>
+              Castles, Keeps, and Forts Remastered<br>
+              eco's RP Decor<br>
+              Upgrade Station v1.8i<br>
+              Crystal Isles Dino Addition<br>
+              MX-E Ark Shop UI<br>
+              Editable Server UI (WBUI) Open Source<br>
+              ArkPots<br>
+              Simple Spawners<br>
+              Lethals Reusables<br>
+              Awesome Teleporters!<br>
+              Inventory Backup System<br>
+              Shiny! Dinos<br>
+              Kraken's Better Dinos<br>
+              Auto Engrams!<br>
+              Awesome SpyGlass!<br>
+              Dino Storage v2<br>
+              Structures Plus (S+)<br>
+              ARK Additions: The Collection!</p>
+
+            </div>
+          </div>
+        </div>
+        <!-- Item 5 -->
+        <div class="accordion-item">
+          <h2 class="accordion-header">
+            <button class="accordion-button collapsed" type="button" data-bs-toggle="collapse"
+              data-bs-target="#question-five">
+              Are there Weekly / Monthly Events?
+            </button>
+          </h2>
+          <div id="question-five" class="accordion-collapse collapse" data-bs-parent="#questions">
+            <div class="accordion-body">
+              We try to host weekly events on Saturdays around the same times weekly, If you have a great idea and would
+              like to lets us know, you can always make a ticket in discord.
+            </div>
+          </div>
+        </div>
+      </div>
+    </div>
+  </section>
+
+  <section id="about" class="p-5 bg-dark">
+    <div class="container">
+      <h2 class="text-center text-white">Our Admins</h2>
+      <p class="lead text-center text-white mb-5">
+        Our Admins all have 5+ years working as server admins and customer service
+      </p>
+      <div class="row g-4">
+        <div class="col-md-6 col-lg-3">
+          <div class="card bg-light">
+            <div class="card-body text-center">
+              <img src="images/Me.jpg" class="rounded-circle mb-3" alt="" />
+              <h3 class="card-title mb-3">Time</h3>
+              <p class="card-text">
+              <h4>Server Owner / Admin</h4>Spends most of his time being a caring father and awesome gamer
+              </p>
+              <a href="https://twitter.com/PiecesCluster"><i class="bi bi-twitter text-dark mx-1"></i></a>
+              <a href="https://www.facebook.com/jaesheerin"><i class="bi bi-facebook text-dark mx-1"></i></a>
+            </div>
+          </div>
+        </div>
+
+        <div class="col-md-6 col-lg-3">
+          <div class="card bg-light">
+            <div class="card-body text-center">
+              <img src="images/" class="rounded-circle mb-3" alt="" />
+              <h3 class="card-title mb-3">Truly</h3>
+              <p class="card-text">
+              <h4>Server Admin</h4>Spends most of his time being a caring father and awesome gamer
+              </p>
+              <a href="#"><i class="bi bi-twitter text-dark mx-1"></i></a>
+              <a href="#"><i class="bi bi-facebook text-dark mx-1"></i></a>
+              <a href="#"><i class="bi bi-tik-tok text-dark mx-1"></i></a>
+              <a href="#"><i class="bi bi-instagram text-dark mx-1"></i></a>
+            </div>
+          </div>
+        </div>
+      </div>
+    </div>
+  </section>
+
+  <!-- Footer -->
+  <footer class="p-5 bg-primary text-white text-center position-relative">
+    <div class="container">
+      <p class="lead">Copyright &copy; 2023 Missing Pieces Gaming</p>
+
+      <a href="#" class="position-absolute bottom-0 end-0 p-5">
+        <i class="bi bi-arrow-up-circle h1 text-light"></i>
+      </a>
+    </div>
+  </footer>
+
+  <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.0.1/dist/js/bootstrap.bundle.min.js"
+    integrity="sha384-gtEjrD/SeCtmISkJkNUaaKMoLD0//ElJ19smozuHV6z3Iehds+3Ulb9Bn9Plx0x4"
+    crossorigin="anonymous"></script>
+  <script src="https://api.mapbox.com/mapbox-gl-js/v2.1.1/mapbox-gl.js"></script>
+
+
+  <audio id="my_audio" src="music/Phonk.mp3" loop="loop"></audio>
+  <script type="text/javascript">
+    window.onload = function () {
+      document.getElementById("my_audio").play();
+    }
+  </script>
+</body>
+
+</html>
